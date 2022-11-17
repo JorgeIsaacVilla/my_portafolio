@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+}
+
+.header{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 12.06vh;
+    opacity:1;
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+ /* UI Properties */
+.boxName{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 35%;
+    align-content: center;
+    align-items: center;
+}
+.boxbutton{
+    height: 100%;
+    width: 65%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 1.5vh;
+}
+.name{
+    top: 39px;
+    left: 200px;
+    width: 90px;
+    height: 34px;
+    opacity: 1;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px 0vh 0vh 5px ;
+}
+.lastName{
+    top: 39px;
+    left: 289px;
+    width: 90px;
+    height: 34px;
+    opacity: 1;
+    background-color:black;
+    color: rgb(0, 238, 255);
+    border-radius: 0vh 5px 5px 0vh;
+}
+.section_tarjet{
+    display: flex;
+    height: 54.11vh;
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+    margin-bottom: 10.7vh;
+    justify-content: center;
+
+}
+.tarjet{
+    height: 100%;
+    width: 60%;
+}
+.canvas_tarjet{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(0, 238, 255);
+    margin-bottom: 10.7vh;
+}
+.section{
+    height: 54.11vh;
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+    margin-bottom: 10.7vh;
+}
