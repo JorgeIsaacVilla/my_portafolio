@@ -1,6 +1,16 @@
 *{
     margin: 0%;
 }
+h1{
+color: #fff;
+font-size: 8.83vh;
+}
+h2{
+font-size: 4.9vh;
+color: #fff;
+width: 75.5vh;
+height: 24.5vh;
+}
 
 .header{
     top: 0px;
@@ -14,6 +24,13 @@
     align-items: center;
     display: flex;
 }
+.section1{
+   height: 100vh;
+   width: 100%;
+   background: black;
+   margin-bottom: 10.7vh;
+}
+
  /* UI Properties */
 .boxName{
     display: flex;
@@ -54,10 +71,11 @@ button{
     border-radius: 0vh 5px 5px 0vh;
 }
 .section_tarjet{
+    margin-top: -80vh;
     display: flex;
     height: 54.11vh;
     width: 100%;
-    background-color: rgb(0, 238, 255);
+    background-color: rgba(0, 7, 39, 0.041);
     margin-bottom: 10.7vh;
     justify-content: center;
 
@@ -65,13 +83,18 @@ button{
 .tarjet{
     height: 100%;
     width: 60%;
+    background: rgba(255, 0, 0, 0.185);
 }
 .canvas_tarjet{
     display: flex;
     height: 100%;
     width: 40%;
-    background-color: rgb(0, 238, 255);
-    margin-bottom: 10.7vh;
+    background-color: rgba(30, 31, 102, 0.616);   
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    background: black;
 }
 .section{
     height: 54.11vh;
