@@ -1,15 +1,29 @@
 *{
+    padding: 0%;
     margin: 0%;
+    
+   
+
 }
 h1{
-color: #fff;
+color: rgb(255, 255, 255);
 font-size: 8.83vh;
+background: rgba(255, 255, 255, 0);
+position: absolute;
+top: 20.353552859618716vh;
+left: 34.66204506065858vh;
 }
 h2{
 font-size: 4.9vh;
 color: #fff;
 width: 75.5vh;
 height: 24.5vh;
+position: absolute;
+margin-top: 9vh;
+background: rgba(255, 255, 255, 0);
+
+top: 22.69844020797227vh;
+left: 34.66204506065858vh;
 }
 
 .header{
@@ -23,12 +37,15 @@ height: 24.5vh;
     align-content: center;
     align-items: center;
     display: flex;
+    background: rgba(0, 0, 255, 0.548);
+    opacity: 1;
 }
 .section1{
    height: 100vh;
    width: 100%;
-   background: black;
+   background: rgba(0, 0, 0, 0);
    margin-bottom: 10.7vh;
+   position: absolute;
 }
 
  /* UI Properties */
@@ -39,6 +56,7 @@ height: 24.5vh;
     width: 35%;
     align-content: center;
     align-items: center;
+    
 }
 .boxbutton{
     height: 100%;
@@ -47,28 +65,27 @@ height: 24.5vh;
     justify-content: center;
     align-items: center;
 }
-button{
-    margin: 1.5vh;
+.ver_portafolio{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0);
+    top: 46.18890814558058vh;
+    left: 34.66204506065858vh;
+    width: 185px;
+    height: 47px;
+    border: 1px solid var(--unnamed-color-eaeaea);
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    opacity: 1;
+    color: #EAEAEA;
 }
 .name{
-    top: 39px;
-    left: 200px;
-    width: 90px;
-    height: 34px;
+    width: 31.19584055459272vh;
+    height: 6.065857885615252vh;
     opacity: 1;
-    background-color: aqua;
     color: black;
     border-radius: 5px 0vh 0vh 5px ;
-}
-.lastName{
-    top: 39px;
-    left: 289px;
-    width: 90px;
-    height: 34px;
-    opacity: 1;
-    background-color:black;
-    color: rgb(0, 238, 255);
-    border-radius: 0vh 5px 5px 0vh;
+    background-image: url(/img/Grupo\ 14423.png);
+    background-repeat: no-repeat;
 }
 .section_tarjet{
     margin-top: -80vh;
@@ -83,22 +100,27 @@ button{
 .tarjet{
     height: 100%;
     width: 60%;
-    background: rgba(255, 0, 0, 0.185);
+    background: rgb(255, 0, 0);
 }
 .canvas_tarjet{
     display: flex;
     height: 100%;
     width: 40%;
-    background-color: rgba(30, 31, 102, 0.616);   
+    background-color: rgba(30, 31, 102, 0.26);   
 }
 #particles-js{
     height: 100vh;
     width: 100%;
-    background: black;
+    position: absolute;
+
+    background-image: linear-gradient(360deg, rgba(24, 2, 102, 0.753), rgb(3, 2, 20) 70.71%),
+    linear-gradient(127deg, rgb(5, 13, 85), rgb(255, 255, 255)70.71%),
+    linear-gradient(336deg, rgba(107, 5, 5, 0.808), rgb(255, 255, 255) 70.71%);
+    
 }
 .section{
     height: 54.11vh;
     width: 100%;
-    background-color: rgb(0, 238, 255);
+    background-color:white;
     margin-bottom: 10.7vh;
 }
