@@ -96,11 +96,11 @@ particlesJS(
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 100,
+        "duration": 0.1
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 80
       },
       "remove": {
         "particles_nb": 2
