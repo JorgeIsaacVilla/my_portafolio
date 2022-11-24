@@ -200,9 +200,12 @@ li{
     border-width: 1px;
 }
 .portafolio{
-    position: absolute;
+    position: relative;
+    /*
     top:  160.09711846318035vh;
-    left: 21.34471718249733vh;   
+    left: 21.34471718249733vh; */
+    margin-left: 22vh;
+
     color: white;
     font-size: 1.313rem;
     width: 50%;
@@ -220,10 +223,9 @@ li{
     left: -220px;
 }
 .contenedor_portafolio{
-
-    height: 40vh;
-    width: 100%;
-    background:black;
+    justify-content: center;
+    position:static;
+    height: 700px;
 
 }
 .cuadrado1{
@@ -245,10 +247,10 @@ li{
     border: 1px solid #707070;
     border-radius: 10px;
     opacity: 1;
-    background: #CBCBCB;
+    background:  #CBCBCB;
 }
 .section{
-    height: 300vh;
+
     width: 100%;
     background:black;
  }
@@ -272,11 +274,6 @@ text-align:right;
  .botones_portafolio{
     margin-right: 10px;
  }
-
-
-
-
-
  .cuadrado3{
     width: 582px;
     height: 412px;
@@ -296,7 +293,7 @@ text-align:right;
     border: 1px solid #707070;
     border-radius: 10px;
     opacity: 1;
-    background: #CBCBCB;
+    background:  #CBCBCB;
 }
  .desc_portafolio2{
     width: 470px;
