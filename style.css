@@ -126,13 +126,13 @@ display: flex;
     margin-left: 12.5rem;
     margin-top: 20px;
 }
-.section{
-    height: 70vh;
+.section_inicial{
+    height: 40vh;
     width: 100%;
-
     background:black;
-    background-color:black;
+
  }
+
 .sobre_mi{
     position: absolute;
     top:  99.86552828175027vh;
@@ -176,8 +176,7 @@ p{
     position: absolute;
     width: 40.822rem;
     height: 6.281750266808963vh;
-    display: flex;
- 
+    display: flex; 
 }
 .li1{
     margin-right: 3vh;
@@ -200,3 +199,125 @@ li{
     border-style:solid;
     border-width: 1px;
 }
+.portafolio{
+    position: absolute;
+    top:  160.09711846318035vh;
+    left: 21.34471718249733vh;   
+    color: white;
+    font-size: 1.313rem;
+    width: 50%;
+    opacity: 1;
+}
+.portafolio::after{
+    content: '';
+    position: absolute;
+    width: 185px;
+    height: 2px;
+    background-color:white;
+    top: 0.6em;  
+}
+.portafolio::after{
+    left: -220px;
+}
+.contenedor_portafolio{
+
+    height: 40vh;
+    width: 100%;
+    background:black;
+
+}
+.cuadrado1{
+    width: 582px;
+    height: 412px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    margin-left:21.34471718249733vh;
+    background: #6F6F6F;
+    position: relative;
+    
+}
+.cuadrado2{
+ margin-top: -100PX;
+ margin-left: 600PX;
+    width: 528px;
+    height: 293px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    background: #CBCBCB;
+}
+.section{
+    height: 300vh;
+    width: 100%;
+    background:black;
+ }
+ .desc_portafolio1{
+    width: 470px;
+    height: 116px;
+    opacity: 1;
+    margin-left: 900px;
+    margin-top: -600px;
+ }
+ .parrafo_portafolio{
+width: 480px;
+height: 60px;
+text-align:right;
+ }
+ .contenedores_botones_portafolio{
+    display: flex;
+    justify-content: right;
+   
+ }
+ .botones_portafolio{
+    margin-right: 10px;
+ }
+
+
+
+
+
+ .cuadrado3{
+    width: 582px;
+    height: 412px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    margin-left:780px;
+    background:#6F6F6F;
+    position: relative;
+    
+}
+.cuadrado4{
+ margin-top: -100PX;
+ margin-left: 500PX;
+    width: 528px;
+    height: 293px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    background: #CBCBCB;
+}
+ .desc_portafolio2{
+    width: 470px;
+    height: 116px;
+    opacity: 1;
+    margin-left: 200px;
+    margin-top: -600px;
+ }
+ .parrafo_portafolio1{
+    width: 480px;
+    height: 70px;
+    text-align:left;
+    
+     }
+     .contenedores_botones_portafolio1{
+        display: flex;
+
+       
+     }
+
+
+
+
+ 
