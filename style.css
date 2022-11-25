@@ -10,11 +10,8 @@ h1{
 color: rgb(255, 255, 255);
 font-size: 4.857rem;
 background: rgba(255, 255, 255, 0);
-margin-left: 12.5rem;
+margin-left: 21.34471718249733vh;
 background: rgba(255, 255, 255, 0);
-/*position: absolute;
-top:  29.77588046958378vh;
-left:21.34471718249733vh;*/
 }
 h2{
 font-size:2.695rem;
@@ -22,7 +19,7 @@ color: #fff;
 width: 755px;
 height: auto;
 margin-top: 20px;
-margin-left: 12.5rem;
+margin-left: 21.34471718249733vh;
 background: rgba(255, 255, 255, 0);
 align-items: center;
 }
@@ -39,7 +36,7 @@ margin-left: 3.84204909284952vh;
  /* seccion header */
 .header{
     width: 100%;
-    height: 113px;
+    height: 7.063em;
     opacity:1;
     backdrop-filter: blur(17px);
     -webkit-backdrop-filter: blur(17px);
@@ -117,10 +114,6 @@ margin-left: 3.84204909284952vh;
     margin-left: 12.5rem;
     margin-top: 20px;
 }
-
-
-
-
      .section_inicial{
         height: 100vh;
         width: 100%;
@@ -168,18 +161,14 @@ margin-left: 3.84204909284952vh;
         border-style:solid;
         border-width: 1px;
     }
-
      p{
         margin-bottom: 1.5rem;
         width: 60.51227321237994vh;
         color:white;
         opacity: 1;
-        font-size: 1.725997842502697vh;
+        font-size: 1rem;
     }
-   
-
-
-    .lista{
+     .lista{
         /*top: 128.66808964781217vh;
         left: 21.34471718249733vh;*/ 
         position: absolute;
@@ -191,20 +180,9 @@ margin-left: 3.84204909284952vh;
         margin-right: 3vh;
     }
     li{
-        font-size: 1.725997842502697vh;
+        font-size: 1rem;
         color: white;
     }
-
-
-
-
-
-
-
-
-
-
-
     .canvas1{
         width: 100%;
         height: 180vh;
@@ -242,18 +220,6 @@ margin-left: 3.84204909284952vh;
         left: -28vw;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     .cuadrado1{
         width: 36.375rem;
         height: 25.75em;
@@ -279,11 +245,8 @@ margin-left: 3.84204909284952vh;
         height: 12.513484358144552vh;
         opacity: 1;
         margin-left: 56.25rem;
-        margin-top: -37.5em;
-
-        
+        margin-top: -37.5em;   
      }
-
      .parrafo_portafolio{
         width: 51.77993527508091vh;
 
@@ -294,20 +257,6 @@ margin-left: 3.84204909284952vh;
 
         text-align:left;
          }
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
      .contenedores_botones_portafolio{
         display: flex;
         justify-content: right;
@@ -316,7 +265,6 @@ margin-left: 3.84204909284952vh;
      .botones_portafolio{
         margin-right: 10px;
      }
-
      .cuadrado3{
         width: 36.375rem;
         height: 25.75em;
@@ -339,41 +287,6 @@ margin-left: 3.84204909284952vh;
         background:  #CBCBCB;
     }
 
-
-    /*.cuadrado1{
-
-        border-radius: 10px;
-        opacity: 1;
-
-        background: #6F6F6F;
-        position: relative;    
-    }
-    .cuadrado2{
- 
-
-        border-radius: 10px;
-        opacity: 1;
-        background:  #CBCBCB;
-
-    }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
      .desc_portafolio2{
         width: 470px;
         height: 116px;
@@ -387,20 +300,20 @@ margin-left: 3.84204909284952vh;
     
            
          }
-
 .section2{
     background: black;
+    height: 47.27694090382387vh;
 }
 .t2_contacto{
-    margin-top:0px;
+margin-top:0px;
+margin-bottom:4.268943436499466vh;
 margin-left: auto;
-    margin-right: auto;
-    width: 0px;
-font-size:  4.268943436499466vh;
+margin-right: auto;
+font-size:  2.82rem;
 font-family: 'Lato', sans-serif;
-justify-content: center;
+text-align: center;
 }
-h3{
+.h3_t2_contacto_Section2{
 width: 440px;
 height: 78px;
 color: #ffff;
@@ -408,5 +321,23 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 font-family: 'Lato', sans-serif;
-font-size: 16px;
+font-size: 1rem;
+}
+
+.span_section2{
+display: flex;
+justify-content: center;
+margin-left: auto;
+margin-left: auto;
+}
+span{
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 3.125rem;
+}
+footer{
+    text-align: center;
+    color: #00CDBA;
+    background: black;
+    height: 5.735805330243338vh;
 }
