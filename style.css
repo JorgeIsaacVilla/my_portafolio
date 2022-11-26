@@ -6,6 +6,9 @@
     margin: 0%;
     font-family: "Lato",sans-serif; 
 }
+html{
+    scroll-behavior: smooth;
+}
 h1{
 color: rgb(255, 255, 255);
 font-size: 4.857rem;
@@ -72,6 +75,14 @@ margin-left: 3.84204909284952vh;
     justify-content: flex-end;
     display: flex;
     width: 65%;  
+}
+/*.lista li{
+    list-style-type:square;  
+}*/
+.lista li::marker{
+    color:#00CDBA;
+    transform: rotate(45deg);
+    
 }
 .boxButoon2{
     height: 100%;
@@ -169,8 +180,6 @@ margin-left: 3.84204909284952vh;
         font-size: 1rem;
     }
      .lista{
-        /*top: 128.66808964781217vh;
-        left: 21.34471718249733vh;*/ 
         position: absolute;
         width: 40.822rem;
         height: 6.281750266808963vh;
@@ -185,7 +194,7 @@ margin-left: 3.84204909284952vh;
     }
     .canvas1{
         width: 100%;
-        height: 180vh;
+        height: 130vh;
         background:rgb(0, 0, 0); 
     }
  
