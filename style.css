@@ -35,9 +35,12 @@ p{
     display: flex;
     position: fixed;
     opacity:1;
-    backdrop-filter: blur(17px);
     z-index: 99;
-    background: rgba(210, 210, 218, 0.192);
+    background: rgba(210, 210, 218, 0.596);
+    opacity: 50px;
+/*  background-image: url(./img/Rectángulo\ 3325.jpg);
+    background-size: cover;*/
+
 }
 .boxName1{
     height: 100%;
@@ -70,7 +73,7 @@ p{
     position: absolute;
 
     
-    background: rgba( 247, 247, 247, 0.5 );
+    background: rgba(247, 247, 247, 0.26);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     opacity: 1;
     backdrop-filter: blur(17px);
