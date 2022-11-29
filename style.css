@@ -5,6 +5,12 @@
     margin: 0%;
     font-family: "Lato",sans-serif; 
 }
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+}
 h1{
     font-size: 1.75em;
     color: aliceblue;
@@ -65,7 +71,6 @@ p{
     -webkit-backdrop-filter: blur(300px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
 /* Estilos por agregar en JavaScript */
 .active{
     transform: translate(2000px);
@@ -76,7 +81,6 @@ p{
     padding: 100px 0px 20px 0px;
     list-style: none;
 }
-
 .cont-menu ul li{
     color: white;
     display: block;
@@ -86,25 +90,10 @@ p{
     cursor: pointer;
     
 }
-
 .cont-menu ul li:hover{
     background-color: rgb(228,228,228);
     color: rgb(42,42,42);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*fin header 1*/
 /*inicio presentación*/
 .presentacion{
@@ -141,7 +130,6 @@ p{
     width: 100%;
     background-image: url(./img/Grupo\ 14432.png);
     background-size: 100% 100%;
-    
 }
 .mi_imagen{
     background-image:url(./img/drawable-hdpi/Diseño\ sin\ título.png);
@@ -152,14 +140,12 @@ p{
     margin-left: 10%;
     margin-top: 4.098360655737705vh;
     margin-bottom: 10%;
-
 }
 .sobre_mi{
     color: #EAEAEA;
     background-size:1.125rem;
     padding-top: 10%;
     margin-left: 10%;
-    
 }
 .lista{
     width: 100%;
@@ -167,13 +153,11 @@ p{
     display: flex;
     background: rgba(4,8,16,255);
     justify-content: center;
-
     display:grid;
     grid-template-columns: 100px 100px;
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-
 }
 .li1{
     padding-right: 1.5vh;
@@ -214,7 +198,6 @@ li{
     height: 140px;
     background: #00CDBA;
     box-shadow: 0 0 1px  #00CDBA, 0 0 1px  #00CDBA, 0 0 1px  #00CDBA;
-   
 }
 .cuadrado_gris{
     width: 98%;
@@ -233,7 +216,6 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-
 }
 .imagen_web_Codigo{
     width: 149px;
@@ -245,7 +227,6 @@ li{
     background-image: url(./img/Captura_muestra_Codigo.PNG);
     background-size: cover;
     background-repeat: no-repeat;
-  
 }
 
 .portafolio_derecha{
@@ -271,7 +252,6 @@ li{
     height: 140px;
     background: #00CDBA;
     box-shadow: 0 0 1px  #00CDBA, 0 0 1px  #00CDBA, 0 0 1px  #00CDBA;
-   
 }
 .imagen_web_portafolio2{
     width: 149px;
@@ -284,7 +264,6 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-
 }
 .imagen_web_Codigo2{
     width: 149px;
@@ -296,15 +275,7 @@ li{
     background-image: url(./img/Captura_muestra_Codigo.PNG);
     background-size: cover;
     background-repeat: no-repeat;
-  
 }
-
-
-
-
-
-
-
 /*fin portafolio*/
 /*inicio contactame*/
 .contactame{
