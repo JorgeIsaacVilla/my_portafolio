@@ -8,7 +8,7 @@
 h1{
     font-size: 1.75em;
     color: aliceblue;
-    padding-left: 10vh;
+    padding-left: 10%;
     padding-top: 18.353808353808354vh;
 }
 p{
@@ -17,7 +17,7 @@ p{
     color:white;
     opacity: 1;
     font-size: 1rem;
-    margin-left: 10vh;
+    margin-left: 10%;
 }
 /*inicio header 1*/
 .header1{
@@ -42,36 +42,23 @@ p{
     margin-left: 8.845208845208845vh;
     margin-top: 0.9em;
 }
-
-
-
-
-
-
-
-
 /* Estilos para el ícono del Menú */
 .icono-menu{
     margin: auto;
     position: relative;
     z-index: 10;
 }
-
 .icono-menu img{
     vertical-align: top;
     width: 40px;
     cursor: pointer;
 }
-
 /* Estilos para el contenedor del Menú */
 .cont-menu{
     width: 100%;
     height: 60.8vh;
     position: absolute;
     transition: all .5s ease;
-
-
-
     background: rgba(155, 155, 155, 0.863);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.534);
     backdrop-filter: blur( 100px );
@@ -81,7 +68,7 @@ p{
 
 /* Estilos por agregar en JavaScript */
 .active{
-    transform: translate(-2000px);
+    transform: translate(2000px);
 }
 
 /* Estilos para el listado del Menú */
@@ -97,6 +84,7 @@ p{
     text-decoration: none;
     padding: 10px 50px;
     cursor: pointer;
+    
 }
 
 .cont-menu ul li:hover{
@@ -129,7 +117,7 @@ p{
 .text_presentacion{
     color: aliceblue;
     font-size: 1.125rem;
-    margin-left: 10vh;
+    padding-left: 10%;
     margin-top: 0.188rem;
 }
 .ver_portafolio{
@@ -142,7 +130,7 @@ p{
     opacity: 1;
     color: #EAEAEA;
     margin-top:0.5rem;
-    margin-left: 10vh;
+    margin-left: 10%;
 }
 /*fin presentación*/
 /*inicio sobre mi presentacion*/
@@ -151,9 +139,9 @@ p{
 }
 .presentacion1{
     width: 100%;
-    height: 95.54601226993865vw;
     background-image: url(./img/Grupo\ 14432.png);
     background-size: 100% 100%;
+    
 }
 .mi_imagen{
     background-image:url(./img/drawable-hdpi/Diseño\ sin\ título.png);
@@ -161,15 +149,16 @@ p{
     width: 31.557377049180328vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-left: 10vh;
+    margin-left: 10%;
     margin-top: 4.098360655737705vh;
+    margin-bottom: 10%;
 
 }
 .sobre_mi{
     color: #EAEAEA;
     background-size:1.125rem;
-    padding-top: 10.2vh;
-    padding-left: 10vh;
+    padding-top: 10%;
+    margin-left: 10%;
     
 }
 .lista{
@@ -198,3 +187,141 @@ li{
     transform: rotate(45deg);
 }
 /*fin sobre mi presentacion*/
+/*inicio portafolio*/
+.portafolio{
+    background: rgba(4,8,16,255);
+}
+.portafolio_izquierda{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 10%;
+}
+.cuadrado_tramsparente{
+    width: 149px;
+    height: 140px;
+    background: rgba(94, 94, 104, 0);
+    border-radius: 15%;
+    border:solid 1px #00CDBA ;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    transition: 1s; 
+}
+.cuadrado_tramsparente:hover{
+    width: 149px;
+    height: 140px;
+    background: #00CDBA;
+    box-shadow: 0 0 1px  #00CDBA, 0 0 1px  #00CDBA, 0 0 1px  #00CDBA;
+   
+}
+.cuadrado_gris{
+    width: 98%;
+    height: 98%;
+    background: rgba(94, 94, 104, 0.301);
+    border-radius: 15%;
+}
+.imagen_web_portafolio{
+    width: 149px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15%;
+    margin-left: -38%;
+    margin-top: -4%;
+    background-image: url(./img/Captura_muestra.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.imagen_web_Codigo{
+    width: 149px;
+    height: 140px;
+    background: rgba(82, 143, 13, 0);
+    border-radius: 15%;
+    margin-top: 15%;
+    margin-left: -20%;
+    background-image: url(./img/Captura_muestra_Codigo.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.portafolio_derecha{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 10%;
+}
+.cuadrado_tramsparente2{
+    width: 149px;
+    height: 140px;
+    background: rgba(94, 94, 104, 0);
+    border-radius: 15%;
+    border:solid 1px #00CDBA ;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    transition: 1s;
+}
+.cuadrado_tramsparente2:hover{
+    width: 149px;
+    height: 140px;
+    background: #00CDBA;
+    box-shadow: 0 0 1px  #00CDBA, 0 0 1px  #00CDBA, 0 0 1px  #00CDBA;
+   
+}
+.imagen_web_portafolio2{
+    width: 149px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15%;
+    margin-left: -38%;
+    margin-top: -4%;
+    background-image: url(./img/Captura_muestra.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.imagen_web_Codigo2{
+    width: 149px;
+    height: 140px;
+    background: rgba(82, 143, 13, 0);
+    border-radius: 15%;
+    margin-top: 15%;
+    margin-left: -60%;
+    background-image: url(./img/Captura_muestra_Codigo.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+
+
+/*fin portafolio*/
+/*inicio contactame*/
+.contactame{
+    background: rgba(4,8,16,255);
+    padding-top: 15vh;
+}
+strong{
+    color: #EAEAEA;
+    margin-left: 3%;
+    margin-right: 5%;
+    font-size: 0.938rem;
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    color: #00CDBA;
+    text-align: center;
+    font-size: 0.813rem;
+}
+/*fin contactame*/
