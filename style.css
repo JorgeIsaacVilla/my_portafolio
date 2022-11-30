@@ -20,6 +20,9 @@ h1{
     padding-left: 10%;
     padding-top: 18.353808353808354vh;
 }
+body{
+    background:rgba(4,8,16,255);
+}
 p{
     padding-bottom: 1.5rem;
     width: 75%;
@@ -36,11 +39,8 @@ p{
     position: fixed;
     opacity:1;
     z-index: 99;
-    background: rgba(210, 210, 218, 0.596);
+    background:rgba(4,8,16,255);
     opacity: 50px;
-/*  background-image: url(./img/Rectángulo\ 3325.jpg);
-    background-size: cover;*/
-
 }
 .boxName1{
     height: 100%;
@@ -49,9 +49,9 @@ p{
 .name_image{
     background-image: url(./img/Grupo\ 14423.png);
     height: 2.25em;
-    width: 7.553rem;
+    width: 10rem;
     background-size: 100% 100%;
-    margin-left: 8.845208845208845vh;
+    margin-left: 3.8vh;
     margin-top: 0.9em;
 }
 /* Estilos para el ícono del Menú */
@@ -68,11 +68,8 @@ p{
 /* Estilos para el contenedor del Menú */
 .cont-menu{
     width: 100%;
-    height: 60.8vh;
     transition: all .5s ease;
     position: absolute;
-
-    
     background: rgba(247, 247, 247, 0.26);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     opacity: 1;
@@ -103,6 +100,24 @@ p{
     color: rgb(42,42,42);
 }
 /*fin header 1*/
+/*inicio pVentana Flotante*/
+
+.ventana_flotante{
+  
+    justify-content: center;
+    justify-items: center;
+    background: #00CDBA;
+    height: 17rem;
+    width: 11rem;
+    border-radius: 100px;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    display: none;
+}
+/*fin pVentana Flotante*/
+
 /*inicio presentación*/
 .presentacion{
     width: 100%;
@@ -128,6 +143,20 @@ p{
     color: #EAEAEA;
     margin-top:0.5rem;
     margin-left: 10%;
+    position: relative;
+}
+.ver_portafolio_Enlace{
+    font-size: 0.75rem;
+    color: white;
+    display:flex;
+    position: relative;
+    text-decoration: none;
+    margin: auto;
+    display: table-cell;
+    padding: 0 1.68rem;   
+}
+.ver_portafolio_Enlace::after{
+    content: none;
 }
 /*fin presentación*/
 /*inicio sobre mi presentacion*/
@@ -175,9 +204,27 @@ li{
     color: white;
 }
 a{
-    font-size: 1.125;
-    color: white;  
+    font-size: 1.25rem;
+    color: white;
+    display:flex;
+    position: relative;
+    margin-bottom: 30px;
+    text-decoration: none;   
 }
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 50px;
+    left:0;
+    background-color: #EAEAEA;
+}
+
+
+
+
+
 .lista li::marker{
     color:#00CDBA;
     transform: rotate(45deg);
@@ -195,48 +242,48 @@ a{
     padding-bottom: 10%;
 }
 .cuadrado_tramsparente{
-    width: 149px;
-    height: 140px;
+    width: 160px;
+    height: 170px;
     background: rgba(94, 94, 104, 0);
-    border-radius: 15%;
+    border-radius: 15px;
     border:solid 1px #00CDBA ;
     display: flex; 
     justify-content: center; 
     align-items: center;
     position: relative;
-    transition: 1s; 
+    margin-left: -1rem;
 }
-.cuadrado_tramsparente:hover{
+/*.cuadrado_tramsparente:hover{
     width: 149px;
     height: 140px;
     background: #00CDBA;
     box-shadow: 0 0 1px  #00CDBA, 0 0 1px  #00CDBA, 0 0 1px  #00CDBA;
-}
+}*/
 .cuadrado_gris{
     width: 98%;
     height: 98%;
     background: rgba(94, 94, 104, 0.301);
-    border-radius: 15%;
+    border-radius: 15px;
 }
 .imagen_web_portafolio{
-    width: 149px;
-    height: 140px;
+    width: 160px;
+    height: 170px;
     background: rgba(0, 0, 0, 0);
-    border-radius: 15%;
-    margin-left: -38%;
-    margin-top: -4%;
+    border-radius: 15px;
+    margin-left: -9rem;
+    margin-top: -1.5rem;
     background-image: url(./img/Captura_muestra.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 .imagen_web_Codigo{
-    width: 149px;
-    height: 140px;
+    width: 160px;
+    height: 170px;
     background: rgba(82, 143, 13, 0);
-    border-radius: 15%;
-    margin-top: 15%;
-    margin-left: -20%;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: -4rem;
     background-image: url(./img/Captura_muestra_Codigo.PNG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -249,42 +296,36 @@ a{
     padding-bottom: 10%;
 }
 .cuadrado_tramsparente2{
-    width: 149px;
-    height: 140px;
+    width: 160px;
+    height: 170px;
     background: rgba(94, 94, 104, 0);
-    border-radius: 15%;
+    border-radius: 15px;
     border:solid 1px #00CDBA ;
     display: flex; 
     justify-content: center; 
     align-items: center;
     position: relative; 
-    transition: 1s;
-}
-.cuadrado_tramsparente2:hover{
-    width: 149px;
-    height: 140px;
-    background: #00CDBA;
-    box-shadow: 0 0 1px  #00CDBA, 0 0 1px  #00CDBA, 0 0 1px  #00CDBA;
+
 }
 .imagen_web_portafolio2{
-    width: 149px;
-    height: 140px;
+    width: 160px;
+    height: 170px;
     background: rgba(0, 0, 0, 0);
-    border-radius: 15%;
-    margin-left: -38%;
-    margin-top: -4%;
+    border-radius: 15px;
+    margin-left: -9.2rem;
+    margin-top: -1.4rem;
     background-image: url(./img/Captura_muestra.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 .imagen_web_Codigo2{
-    width: 149px;
-    height: 140px;
+    width: 160px;
+    height: 170px;
     background: rgba(82, 143, 13, 0);
-    border-radius: 15%;
-    margin-top: 15%;
-    margin-left: -60%;
+    border-radius: 15px;
+    margin-top: 9rem;
+    margin-left: -18rem;
     background-image: url(./img/Captura_muestra_Codigo.PNG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,11 +337,20 @@ a{
     padding-top: 15vh;
     scroll-margin-top: 8ex;
 }
+.informacion_personal{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.strongs{
+    margin: auto;
+    width: 11rem;
+}
 strong{
     color: #EAEAEA;
     margin-left: 3%;
     margin-right: 5%;
-    font-size: 0.938rem;
+    font-size: 0.75rem;
 }
 footer{
     width: 100%;
@@ -310,3 +360,9 @@ footer{
     font-size: 0.813rem;
 }
 /*fin contactame*/
+@media (max-width:300px){
+    .informacion_personal{
+       display:block;
+    }
+    
+}
