@@ -20,9 +20,9 @@ h1{
     padding-left: 10%;
     padding-top: 18.353808353808354vh;
 }
-body{
+/*body{
     background:rgba(4,8,16,255);
-}
+}*/
 p{
     padding-bottom: 1.5rem;
     width: 75%;
@@ -30,6 +30,7 @@ p{
     opacity: 1;
     font-size: 1rem;
     margin-left: 10%;
+    line-height: 28px;
 }
 /*inicio header 1*/
 .header1{
@@ -184,6 +185,12 @@ p{
     padding-top: 10%;
     margin-left: 10%;
 }
+.sobre_mi_portafolio{
+    color: #EAEAEA;
+    background-size:1.125rem;
+    padding-top: 10%;
+    margin-left: 10%;
+}
 .lista{
     width: 100%;
     padding-bottom: 15%;
@@ -220,11 +227,6 @@ a::after{
     left:0;
     background-color: #EAEAEA;
 }
-
-
-
-
-
 .lista li::marker{
     color:#00CDBA;
     transform: rotate(45deg);
@@ -360,9 +362,101 @@ footer{
     font-size: 0.813rem;
 }
 /*fin contactame*/
+
+@media (min-width:520px){
+    .header1{
+        height:7.063rem;
+    }
+    .name_image{
+        height: 2.25em;
+        width: 11.188rem;
+        margin-left: 18vh;
+        margin-top: 2.3em;
+    }
+    .text_presentacion{
+        width:35%;
+        margin-bottom: 1rem;
+        font-size: 2.5rem; 
+    }
+    H1{
+       font-size: 3.75rem;
+       padding-top: 30vh;
+    }
+    .ver_portafolio{
+        width: 11.563rem;
+        height: 2.938rem;
+    }
+    .ver_portafolio_Enlace{
+        font-size: 0.875rem;
+        padding: 0 3.25rem;
+    }
+    .presentacion{
+        height: 100vh;
+}
+.presentacion1{
+
+    background-image: none;
+    position:absolute;
+
+}
+    .sobre_mi_presentacion{
+        display: flex;
+ 
+        width: 100%;
+        background-image: url(./img/Grupo\ 14432.png);
+        background-size: 100% 100%;
+}   
+    .sobre_mi{
+        background-size:1.313rem;
+}
+    .mi_imagen{
+        height:  41.40875133404482vh;
+        width:  41.40875133404482vh;
+        border-radius: 200px;
+        margin-left: 60%;
+    
+        /*margin-top: 4.098360655737705vh;
+        left: 50%;
+        margin-bottom: 10%;
+        position: relative;*/
+}
+.lista{
+    margin-left: 10%;
+    justify-content:left;
+    display: flex;
+    background: rgba(255, 0, 0, 0);
+}
+.li1{
+    padding-right: 1.5vh;
+}
+li{
+    font-size: 1rem;
+}
+.textos_parrafos{
+    margin-top:13%;
+}
+.history{
+    width: 35%;  
+    
+    /*padding-bottom: 1.5rem;
+    width: 75%;
+    color:white;
+    opacity: 1;
+    font-size: 1rem;
+    margin-left: 10%;
+    line-height: 28px;*/
+}
+}
+/*@media (max-width:712px){
+    -la lista de los programas que manejo
+    -el h1
+    - y agrandar las fotos de los proyectos
+    }*/
 @media (max-width:300px){
     .informacion_personal{
        display:block;
     }
-    
+/*-poner las fotos responsive "vh", 
+  -mi imagen personal responsive, 
+  -y el h1*/
 }
