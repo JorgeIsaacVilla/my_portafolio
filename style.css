@@ -425,6 +425,7 @@ footer{
     justify-content:left;
     display: flex;
     background: rgba(255, 0, 0, 0);
+    width: 90%;
 }
 .li1{
     padding-right: 1.5vh;
@@ -437,15 +438,54 @@ li{
 }
 .history{
     width: 35%;  
-    
-    /*padding-bottom: 1.5rem;
-    width: 75%;
-    color:white;
-    opacity: 1;
-    font-size: 1rem;
-    margin-left: 10%;
-    line-height: 28px;*/
 }
+
+.cuadrado_tramsparente{
+    width: 528px;
+    height: 293px;
+}
+.imagen_web_portafolio{
+    width: 528px;
+    height: 293px;
+    margin-left: -32rem;
+
+}
+.imagen_web_Codigo{
+     width: 528px;
+    height: 293px;
+    margin-left: -10rem;
+    margin-top: 15rem;
+
+}
+.cuadrado_tramsparente2{
+    width: 528px;
+    height: 293px;
+    margin-left: 1rem;
+    margin-top: 110px;
+}
+.imagen_web_portafolio2{
+    width: 528px;
+    height: 293px;
+    margin-left: -32rem;
+    margin-top: 90px;
+}
+.imagen_web_Codigo2{
+    width: 528px;
+    height: 293px;
+    margin-left: -58rem;
+    margin-top: 15rem;
+}
+.text_portafolio_izquierdo{
+    width: 800px;
+    height: 116px;
+    position: relative;
+    top:-620px;
+    margin-left: 10%;
+
+}
+.text_portafolio_derecho
+
+
 }
 /*@media (max-width:712px){
     -la lista de los programas que manejo
