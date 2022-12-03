@@ -163,6 +163,7 @@ p{
 /*inicio sobre mi presentacion*/
 .sobre_mi_presentacion{
     background: rgba(4,8,16,255);
+    padding-bottom: 5%;
 }
 .presentacion1{
     width: 100%;
@@ -290,7 +291,6 @@ a::after{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .portafolio_derecha{
     display: flex; 
     justify-content: center; 
@@ -307,7 +307,6 @@ a::after{
     justify-content: center; 
     align-items: center;
     position: relative; 
-
 }
 .imagen_web_portafolio2{
     width: 160px;
@@ -363,9 +362,16 @@ footer{
 }
 /*fin contactame*/
 
+.boton_Descargar_curriculum{
+    display: none;
+}
+
 @media (min-width:520px){
     .header1{
         height:7.063rem;
+    }
+    .boton_Descargar_curriculum{
+        display: block;
     }
     .name_image{
         height: 2.25em;
@@ -448,14 +454,12 @@ li{
     width: 528px;
     height: 293px;
     margin-left: -32rem;
-
 }
 .imagen_web_Codigo{
      width: 528px;
     height: 293px;
     margin-left: -10rem;
     margin-top: 15rem;
-
 }
 .cuadrado_tramsparente2{
     width: 528px;
@@ -476,16 +480,152 @@ li{
     margin-top: 15rem;
 }
 .text_portafolio_izquierdo{
-    width: 800px;
-    height: 116px;
+    /*width: 800px;*/
+    width: 40%;
+    /*height: 116px;*/
+    height:  2%;
     position: relative;
-    top:-620px;
+    top:-640px;
     margin-left: 10%;
-
 }
-.text_portafolio_derecho
+.text_portafolio_derecho{
+     /*width: 800px;*/
+     width: 40%;
+     /*height: 116px;*/
+     height:  2%;
+    position: relative;
+    top:-665px;
+    margin-left: 55%;
+}
+.image_portafolio_boton{
+    display: flex;
+    justify-content: right;
+}
+.image_boton2{
+    margin-right: 15%;
+}
+.header1{
+    opacity:1;
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    z-index: 99;
+    background: rgba(210, 210, 218, 0.192);
+}
+.sobre_mi_portafolio{
+    font-size: 1.75em;
+}
+.sobre_mi{
+    font-size: 1.75em;
+    margin: auto;
+    text-align: center;
+}
+.contactame{
+    margin: auto;
+    justify-content: center;
+}
+.texto_contactame{
+width: 440px;
+height: 78px;
+justify-content:center;
+margin: auto;
+margin-top: 3vh;
+text-align: center;
+justify-content: center;
+}
+.boton_Descargar_curriculum{
+    margin-bottom: 300px;
+    width: 189px;
+    height: 47px;
+    border-radius: 5px;
+    border: solid;
+    list-style: none;
+}
+/*.boton_Descargar_curriculum li{
+    list-style: red;
+}*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el ícono del Menú */
+.icono-menu{
+display: none;
+}
+/* Estilos para el contenedor del Menú */
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+    width: 100%;
+    margin-top: -70px;
+
+    position: relative;
+    display: flex;
+    transition: all .0s ease;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter:blur(0px); 
+    background: rgba(247, 247, 247, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+/* Estilos por agregar en JavaScript */
+.active{
+    transform: translate(0px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+    padding: none;
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+.cont-menu ul li{
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 0px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.descargar_curriculum_header{
+    display: none;
+}
 }
 /*@media (max-width:712px){
     -la lista de los programas que manejo
