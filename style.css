@@ -20,9 +20,9 @@ h1{
     padding-left: 10%;
     padding-top: 18.353808353808354vh;
 }
-/*body{
+body{
     background:rgba(4,8,16,255);
-}*/
+}
 p{
     padding-bottom: 1.5rem;
     width: 75%;
@@ -82,7 +82,6 @@ p{
 .active{
     transform: translate(2000px);
 }
-
 /* Estilos para el listado del Menú */
 .cont-menu ul{
     padding: 100px 0px 20px 0px;
@@ -102,9 +101,7 @@ p{
 }
 /*fin header 1*/
 /*inicio pVentana Flotante*/
-
 .ventana_flotante{
-  
     justify-content: center;
     justify-items: center;
     background: #00CDBA;
@@ -185,6 +182,13 @@ p{
     background-size:1.125rem;
     padding-top: 10%;
     margin-left: 10%;
+}
+.titulo_contacto{
+    color: #EAEAEA;
+    background-size:1.125rem;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 .sobre_mi_portafolio{
     color: #EAEAEA;
@@ -275,8 +279,8 @@ a::after{
     border-radius: 15px;
     margin-left: -9rem;
     margin-top: -1.5rem;
-    background-image: url(./img/Captura_muestra.PNG);
-    background-size: cover;
+    background-image: url(./img/building.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -287,8 +291,8 @@ a::after{
     border-radius: 15px;
     margin-top: 10rem;
     margin-left: -4rem;
-    background-image: url(./img/Captura_muestra_Codigo.PNG);
-    background-size: cover;
+    background-image: url(./img/JavaScript-Development.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .portafolio_derecha{
@@ -315,8 +319,8 @@ a::after{
     border-radius: 15px;
     margin-left: -9.2rem;
     margin-top: -1.4rem;
-    background-image: url(./img/Captura_muestra.PNG);
-    background-size: cover;
+    background-image: url(./img/building.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -327,8 +331,8 @@ a::after{
     border-radius: 15px;
     margin-top: 9rem;
     margin-left: -18rem;
-    background-image: url(./img/Captura_muestra_Codigo.PNG);
-    background-size: cover;
+    background-image: url(./img/JavaScript-Development.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 /*fin portafolio*/
@@ -342,16 +346,19 @@ a::after{
     display: flex;
     margin: auto;
     width: 100%;
+    margin-top: 15%; 
+    padding-bottom:35%;
 }
 .strongs{
     margin: auto;
     width: 11rem;
+    margin-left: 10%;
 }
 strong{
     color: #EAEAEA;
     margin-left: 3%;
     margin-right: 5%;
-    font-size: 0.75rem;
+    font-size: 0.75rem;     
 }
 footer{
     width: 100%;
@@ -361,17 +368,30 @@ footer{
     font-size: 0.813rem;
 }
 /*fin contactame*/
-
 .boton_Descargar_curriculum{
     display: none;
 }
-
 @media (min-width:520px){
     .header1{
         height:7.063rem;
     }
     .boton_Descargar_curriculum{
-        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8vh;
+        width: 189px;
+        height: 47px;
+        border-radius: 1px;
+        border: solid;
+        list-style: none;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        opacity: 1;
+        display: flex;       
+    }
+    .boton_Descargar_curriculum a{
+        font-size: 14px;
+        margin: auto;
     }
     .name_image{
         height: 2.25em;
@@ -400,27 +420,20 @@ footer{
         height: 100vh;
 }
 .presentacion1{
-
     background-image: none;
     position:absolute;
-
 }
     .sobre_mi_presentacion{
         display: flex;
- 
         width: 100%;
         background-image: url(./img/Grupo\ 14432.png);
         background-size: 100% 100%;
 }   
-    .sobre_mi{
-        background-size:1.313rem;
-}
     .mi_imagen{
         height:  41.40875133404482vh;
         width:  41.40875133404482vh;
         border-radius: 200px;
         margin-left: 60%;
-    
         /*margin-top: 4.098360655737705vh;
         left: 50%;
         margin-bottom: 10%;
@@ -439,13 +452,15 @@ footer{
 li{
     font-size: 1rem;
 }
+.sobre_mi_li{
+    width: 5rem;
+}
 .textos_parrafos{
     margin-top:13%;
 }
 .history{
     width: 35%;  
 }
-
 .cuadrado_tramsparente{
     width: 528px;
     height: 293px;
@@ -516,8 +531,6 @@ li{
 }
 .sobre_mi{
     font-size: 1.75em;
-    margin: auto;
-    text-align: center;
 }
 .contactame{
     margin: auto;
@@ -532,38 +545,43 @@ margin-top: 3vh;
 text-align: center;
 justify-content: center;
 }
-.boton_Descargar_curriculum{
-    margin-bottom: 300px;
-    width: 189px;
-    height: 47px;
-    border-radius: 5px;
-    border: solid;
-    list-style: none;
-}
 /*.boton_Descargar_curriculum li{
     list-style: red;
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .titulo_contacto{
+        font-size: 2.5rem;
+        justify-content: center;
+        display: flex;
+        color: #EAEAEA;
+        margin-left: 0;
+    }
+    .informacion_personal{
+        display: block;
+        justify-content: center;
+        padding-bottom:20%;
+        margin: 0;
+        width: 100%;
+        margin-top: 5%; 
+    }
+    .strongs{
+        margin: 0;
+        width: 15%;
+        justify-content: center;
+        display: flex;
+    }
+    strong{
+        margin: 0;
+        font-size: 1rem;
+        margin-left: 3%;
+    }
+    a::after{
+        content:none;
+        position: none;
+        width: 0;
+        height: 0;
+        top: 0;
+        left:0;
+    }
 /* Estilos para el ícono del Menú */
 .icono-menu{
 display: none;
@@ -573,7 +591,6 @@ display: none;
 .cont-menu{
     width: 100%;
     margin-top: -70px;
-
     position: relative;
     display: flex;
     transition: all .0s ease;
@@ -587,13 +604,13 @@ display: none;
 .active{
     transform: translate(0px);
 }
-
 /* Estilos para el listado del Menú */
 .cont-menu ul{
     padding: none;
     list-style: none;
     width: 100%;
     display: flex;
+    margin-left: 10%;
 }
 .cont-menu ul li{
     display: flex;
@@ -603,28 +620,29 @@ display: none;
     cursor: pointer;
 }
 .cont-menu ul li:hover{
-    background-color: rgb(228,228,228);
+    background-color: rgba(228, 228, 228, 0);
     color: rgb(42,42,42);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.boton_contactame_header{
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    opacity: 1;
+    width: 135px;
+    height: 47px;  
+    padding-bottom: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5rem;
+}
 .descargar_curriculum_header{
     display: none;
+}
+.strongs-canva{
+    display: flex;
+    justify-content: center;
+}
+footer{
+font-size: 1rem;
 }
 }
 /*@media (max-width:712px){
